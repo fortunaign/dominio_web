@@ -4,7 +4,7 @@
     </tr>
     <tr>
         <td><a href="">Clientes</a></td>
-        <td><a href="<?=base_url()?>Welcome/index/articulo">Articulos</a></td>
+        <td><a href="<?=base_url()?>dwc_art">Articulos</a></td>
     </tr>
     <tr>
         <td><a href="">Suplidores</a></td>

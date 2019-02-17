@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class _dwc_main extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,27 +20,8 @@ class Welcome extends CI_Controller {
 	 */
 	public function index($inf = '')
 	{
-		$this->load->view('header_page');
-		switch ($inf) {
-			case 'articulo':
-				$this->load->view('articulo_page');
-				break;
-			case 'addarticulo':
-				$this->load->view('add_articulo_page');
-				break;
-			case '0':
-				# code...
-				break;
-			case '0':
-				# code...
-				break;
-			case '0':
-				# code...
-				break;
-			default:
-				$this->load->view('inicio');
-				break;
-		}
-		$this->load->view('footer_page');
+		$this->load->view('_dwv_head');
+		$this->load->view('dwv_menu');
+		$this->load->view('_dwv_foot');
 	}
 }
