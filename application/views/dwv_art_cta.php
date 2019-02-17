@@ -1,8 +1,5 @@
 <table>
     <tr>
-        <td colspan="12"><a href="<?= base_url()?>"><h1>NEGOCIO</h1></a></td>
-    </tr>
-    <tr>
         <form action="#" method="post" autocomplete="off">
         <td colspan="12">
             <input type="text" name="pc" id="">
@@ -44,7 +41,7 @@
                 "<td class='lista'>".$row["art_pv"]."</td><td class='lista'>".$row["art_cantidad"]."</td><td class='lista'>".
                 $row["art_pr"]."</td><td class='lista'>".$row["art_edicion"]."</td><td class='lista'>".$row["art_departamento"]."</td><td class='lista'>".
                 $row["art_suplidor"]."</td><td class='lista'>".$row["art_unidad"]."</td><td class='lista'>".$row["art_status"]."</td>".
-                "<td class='lista'><a href='articulos.php?articulo=".$row['art_id']."'>Editar</a>";
+                "<td class='lista'><a href='".base_url()."dwc_art/index/form?articulo=".$row['art_id']."'>Editar</a>";
             }
         }else{
             echo "<td>0 Resultados</td>";

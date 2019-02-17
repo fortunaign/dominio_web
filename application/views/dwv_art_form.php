@@ -34,7 +34,7 @@ if(isset($_GET['articulo']))
     <ul>
         <li><span>Codigo</span></li>
             <li><input type="text" name="art_id" id="" value="<?php echo $id;?>"></li>
-        <li colspan="4"><a href="v_articulos.php"> Ver todos los Articulos</a></li>
+        <li colspan="4"><a href="<?=base_url()?>dwc_art/index/con"> Ver todos los Articulos</a></li>
         <li><span>Nombre</span></li>
             <li><input type="text" name="art_name" id="" value="<?php echo $art_name;?>"></li>
         <li><span>Precio Venta</span></li>

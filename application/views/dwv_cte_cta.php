@@ -1,5 +1,5 @@
 <?php
-echo "<h1>Pagina Clientes</h1>";
+echo "<h3>Pagina Clientes</h3>";
     /*
     <!DOCTYPE html>
     <html lang="en">

@@ -8,7 +8,7 @@ class dwc_art extends CI_Controller {
         $this->load->view('_dwv_head');
         switch ($inf) {
             case 'add':
-                $this->load->view('dwv_art_fom');
+                $this->load->view('dwv_art_form');
                 break;
             case 'con':
                 $this->load->view('dwv_art_cta');

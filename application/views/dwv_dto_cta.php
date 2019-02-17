@@ -1,6 +1,6 @@
 <?php
 
-echo "<h1>Pagina departamento</h1>";
+echo "<h3>Pagina departamento</h3>";
 /*
     require 'php\database.php';
     if(isset($_GET['id'])){
