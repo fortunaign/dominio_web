@@ -5,7 +5,19 @@ class dwc_art extends CI_Controller {
     
     public function index($inf = '')
     {
-        $this->load->view('dwv_art');
+        $this->load->view('_dwv_head');
+        switch ($inf) {
+            case 'add':
+                $this->load->view('dwv_art_fom');
+                break;
+            case 'con':
+                $this->load->view('dwv_art_cta');
+                break;
+            default:
+                $this->load->view('dwv_art');
+                break;
+        }
+        $this->load->view('_dwv_foot');
     }
     
     /*

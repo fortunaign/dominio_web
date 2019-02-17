@@ -7,6 +7,4 @@
     <title>Document</title>
 </head>
 <body>
-<h1>
-    Dominio Web
-</h1>
+<h1>Cabezera</h1>

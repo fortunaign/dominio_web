@@ -5,7 +5,10 @@ class dwc_dto extends CI_Controller {
 
     public function index()
     {
+        $this->load->view('_dwv_head');
         $this->load->view('dwv_dto');
+        $this->load->view('_dwv_foot');
+        
     }
 
     public function data()
