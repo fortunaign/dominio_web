@@ -21,7 +21,26 @@ class Welcome extends CI_Controller {
 	public function index($inf = '')
 	{
 		$this->load->view('header_page');
-		$this->load->view('inicio');
+		switch ($inf) {
+			case 'articulo':
+				$this->load->view('articulo_page');
+				break;
+			case '0':
+				# code...
+				break;
+			case '0':
+				# code...
+				break;
+			case '0':
+				# code...
+				break;
+			case '0':
+				# code...
+				break;
+			default:
+				$this->load->view('inicio');
+				break;
+		}
 		$this->load->view('footer_page');
 	}
 }
