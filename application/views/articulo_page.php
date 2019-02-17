@@ -1,6 +1,6 @@
 <table>
         <tr>
-            <td colspan="12"><a href="index.php"><h1>NEGOCIO</h1></a></td>
+            <td colspan="12"><a href="<?= base_url()?>"><h1>NEGOCIO</h1></a></td>
         </tr>
         <tr>
             <form action="#" method="post" autocomplete="off">
@@ -8,7 +8,7 @@
                 <input type="text" name="pc" id="">
                 <input type="submit" value="Buscar" name="buscar">
                 <input type="submit" value="Ver Todos">
-                | <a href="articulos.php">Agregar Articulo...</a>
+                | <a href="<?= base_url()?>Welcome/index/addarticulo">Agregar Articulo...</a>
             </td>
             <td colspan="4"></td>
             </td>

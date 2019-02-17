@@ -25,8 +25,8 @@ class Welcome extends CI_Controller {
 			case 'articulo':
 				$this->load->view('articulo_page');
 				break;
-			case '0':
-				# code...
+			case 'addarticulo':
+				$this->load->view('add_articulo_page');
 				break;
 			case '0':
 				# code...
